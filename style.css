@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#fullPage{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center{
+    width: 70vw;
+    height: 60vh;
+    background-color: greenyellow;
+}
+.img_div{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+}
+.myImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6ms;
+    overflow: hidden;
+    transform: translateY(100%);
+}
